@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class TimeOfDay {
 
     //часы (от 0 до 23)
@@ -17,4 +19,6 @@ public class TimeOfDay {
     public int getMinutes() {
         return minutes;
     }
+
+
 }
